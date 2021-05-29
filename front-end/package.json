@@ -1,5 +1,6 @@
 {
   "name": "studquiz",
+    "homepage": "https://aadilraza339.github.io/React-quiz-game/front-end",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
