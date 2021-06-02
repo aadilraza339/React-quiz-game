@@ -10,7 +10,6 @@ const inser_candidat = (req, res,) => {
 	.catch((err)=>{
 		res.status(400).json(err)
 	})
-
 }
 
 const get_detail = (req, res,) => {
@@ -19,6 +18,7 @@ const get_detail = (req, res,) => {
         res.status(200).json(data)
     })
 }
+
 module.exports = {  
     inser_candidat,
     get_detail
